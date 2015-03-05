@@ -1,5 +1,7 @@
 var Bookshelf = require('bookshelf');
 var path = require('path');
+var MongoClient = require('mongodb').MongoClient;
+var Mongoose = require('mongoose');
 
 var db = Bookshelf.initialize({
   client: 'sqlite3',
